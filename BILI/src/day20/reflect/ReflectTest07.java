@@ -12,7 +12,6 @@ public class ReflectTest07 {
 
 		// 获取no属性
 		Field noField = studentClass.getDeclaredField("no");
-		Field noField1 = studentClass.getDeclaredField("no");
 		// 设置属性的值
 		noField.set(obj, 111);
 		// 获取属性的值
